@@ -2,18 +2,12 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World  this is test for webhook\n');
+  res.send('Hello IBM from Pnc\n');
 });
 
 app.get('/ready', function(req, res) {
-  res.send('this is a readiness probe - fakkkkkkkkk you\n');
+  res.send('Hello IBM from Pnc\n');
 });
-
-
-app.get('/healthz', function(req, res) {
-  res.send('this is a healthy probe - I am healthy hahahahahahahahahaha \n');
-});
-
 
 
 app.listen(8080, function () {
