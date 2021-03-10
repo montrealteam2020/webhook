@@ -2,11 +2,11 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello IBM from Pnc\n');
+  res.send('Hello IBM from Pnc and From pnc to Ibm\n');
 });
 
 app.get('/ready', function(req, res) {
-  res.send('Hello IBM from Pnc\n');
+  res.send('Hello IBM from Pnc and From pnc to Ibm\n');
 });
 
 
